@@ -1,0 +1,40 @@
+:root{
+
+    /* Brand */
+
+    --color-primary:#E53935;
+    --color-primary-hover:#C62828;
+
+    /* Background */
+
+    --bg-primary:#0F1115;
+    --bg-secondary:#171A21;
+
+    /* Surface */
+
+    --surface:#1F232B;
+
+    /* Text */
+
+    --text-primary:#FFFFFF;
+    --text-secondary:#A8B3CF;
+
+    /* Border */
+
+    --border:#2D3440;
+
+    /* Radius */
+
+    --radius-sm:8px;
+    --radius-md:14px;
+    --radius-lg:20px;
+
+    /* Container */
+
+    --container:1280px;
+
+    /* Transition */
+
+    --transition:.3s ease;
+
+}
