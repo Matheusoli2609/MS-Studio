@@ -62,4 +62,35 @@ A partir desta versão, todas as interfaces e componentes deverão utilizar os D
 
 Próxima versão:
 
-**v0.3.0 — Front-end Foundation**
+## v0.3.0 — CSS Foundation
+
+**Data:** 26/07/2026
+
+### Added
+
+- Arquitetura CSS da MS Studio
+- `reset.css`
+- `globals.css`
+- `utilities.css`
+- `animations.css`
+- Organização da pasta `styles`
+- Estrutura padronizada para reutilização em futuros projetos
+
+### Changed
+
+- Centralização da arquitetura de estilos
+- Separação das responsabilidades entre arquivos CSS
+- Padronização da ordem de importação dos estilos globais
+- Consolidação da CSS Foundation da MS Studio
+
+### Resultado
+
+A CSS Foundation da MS Studio foi oficialmente concluída.
+
+A partir desta versão, todos os projetos da MS Studio passam a compartilhar uma arquitetura de estilos consistente, escalável e reutilizável, servindo como base para o Design System e para o desenvolvimento das interfaces.
+
+---
+
+Próxima versão:
+
+## v0.4.0 — Tailwind Foundation
