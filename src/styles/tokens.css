@@ -1,0 +1,168 @@
+:root{
+
+/**
+ * ==================================================
+ * MS Studio Design Tokens
+ * ==================================================
+ *
+ * Fonte oficial de todos os Design Tokens da aplicação.
+ *
+ * Qualquer valor reutilizável deve ser definido aqui
+ * antes de ser utilizado em componentes.
+ *
+ * Nunca utilize valores mágicos (hardcoded).
+ *
+ * Exemplo:
+ * ❌ color: #66010F;
+ * ✅ color: var(--color-primary);
+ *
+ * Última atualização:
+ * Milestone 02 — Design Language
+ * ==================================================
+ */
+
+
+/* ========================================
+   BRAND
+======================================== */
+
+--color-primary-100: #F7EAEC;
+--color-primary-200: #E9D7DA;
+--color-primary-300: #D9A9B2;
+--color-primary-400: #A33A47;
+--color-primary-500: #7D1120;
+--color-primary-600: #66010F;
+--color-primary-700: #54000C;
+--color-primary-800: #450009;
+--color-primary-900: #2F0006;
+
+/* Cor oficial */
+
+--color-primary: var(--color-primary-600);
+
+/* ========================================
+   NEUTRALS
+======================================== */
+
+--bg-primary: #0B0C10;
+--bg-secondary: #14171C;
+
+--surface-primary: #1A1D24;
+--surface-secondary: #232832;
+
+--border-color: #2F3542;
+
+--text-primary: #FFFFFF;
+--text-secondary: #B7C0D8;
+--text-muted: #7F879A;
+
+/* ========================================
+   FEEDBACK
+======================================== */
+
+--color-success: #16A34A;
+--color-warning: #F59E0B;
+--color-error: #DC2626;
+--color-info: #2563EB;
+
+/* ========================================
+   STATES
+======================================== */
+
+--focus-ring: rgba(102, 1, 15, .35);
+
+--disabled-bg: #2B303B;
+--disabled-text: #777E91;
+
+/* ========================================
+   TYPOGRAPHY
+======================================== */
+
+--font-family: "Inter", sans-serif;
+
+--font-size-xs: 0.75rem;
+--font-size-sm: 0.875rem;
+--font-size-md: 1rem;
+--font-size-lg: 1.25rem;
+--font-size-xl: 1.5rem;
+--font-size-2xl: 2rem;
+--font-size-3xl: 3rem;
+
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+
+--line-height-heading: 1.2;
+--line-height-body: 1.5;
+
+--letter-spacing-heading: -0.02em;
+--letter-spacing-body: 0;
+
+/* ========================================
+   SPACING
+======================================== */
+
+--space-1: 4px;
+--space-2: 8px;
+--space-3: 16px;
+--space-4: 24px;
+--space-5: 32px;
+--space-6: 48px;
+--space-7: 64px;
+--space-8: 96px;
+
+/* ========================================
+   RADIUS
+======================================== */
+
+--radius-sm: 8px;
+--radius-md: 12px;
+--radius-lg: 20px;
+--radius-full: 9999px;
+
+/* ========================================
+   SHADOWS
+======================================== */
+
+--shadow-sm: 0 2px 6px rgba(0,0,0,.15);
+--shadow-md: 0 6px 18px rgba(0,0,0,.25);
+--shadow-lg: 0 12px 30px rgba(0,0,0,.35);
+
+/* ========================================
+   LAYOUT
+======================================== */
+
+--container-width: 1280px;
+--navbar-height: 80px;
+
+/* ========================================
+   MOTION
+======================================== */
+
+--transition-fast: 150ms ease;
+--transition-normal: 300ms ease;
+--transition-slow: 500ms ease;
+
+/* ========================================
+   LAYERS
+======================================== */
+
+--z-base: 1;
+--z-dropdown: 100;
+--z-navbar: 500;
+--z-modal: 1000;
+--z-toast: 2000;
+
+/* ========================================
+   BREAKPOINTS
+======================================== */
+
+/*
+sm: 576px
+md: 768px
+lg: 992px
+xl: 1200px
+2xl: 1400px
+*/
+}
