@@ -42,7 +42,7 @@ Cada linha de código deve contribuir para uma experiência profissional, intuit
 - React
 - Vite
 - Tailwind CSS (em implantação)
-- JavaScript
+- TypeScript
 
 ### Back-end
 

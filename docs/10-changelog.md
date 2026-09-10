@@ -91,6 +91,21 @@ A partir desta versão, todos os projetos da MS Studio passam a compartilhar uma
 
 ---
 
-Próxima versão:
+## v0.4.0 — TypeScript & Tailwind Foundation
 
-## v0.4.0 — Tailwind Foundation
+**Data:** 10/09/2026 (em andamento)
+
+### Added
+
+- Configuração oficial do TypeScript (`tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json`)
+- Migração de `vite.config.js` para `vite.config.ts`
+- Migração de `main.jsx` e `App.jsx` para `.tsx`
+
+### Changed
+
+- Stack oficial do Engineering Handbook atualizada de JavaScript para TypeScript
+- `.gitignore` atualizado para ignorar `*.tsbuildinfo`
+
+### Status
+
+🟡 Em andamento — próxima etapa: Tailwind CSS v4

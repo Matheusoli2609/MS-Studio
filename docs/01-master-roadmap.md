@@ -118,7 +118,16 @@ Construir a infraestrutura técnica que servirá de base para todos os projetos 
 
 ---
 
-### Sprint 3.2 — Tailwind CSS
+### Sprint 3.3 — TypeScript
+
+- [x] Configurar tsconfig.json / tsconfig.app.json / tsconfig.node.json
+- [x] Migrar vite.config.js → vite.config.ts
+- [x] Migrar main.jsx e App.jsx → .tsx
+- [ ] Migrar componentes restantes para .tsx (incremental)
+
+---
+
+### Sprint 3.3 — Tailwind CSS
 
 - [ ] Instalar Tailwind CSS v4
 - [ ] Configurar Tailwind CSS
@@ -127,7 +136,7 @@ Construir a infraestrutura técnica que servirá de base para todos os projetos 
 
 ---
 
-### Sprint 3.3 — Layout System
+### Sprint 3.4 — Layout System
 
 - [ ] Container
 - [ ] Grid
@@ -136,7 +145,7 @@ Construir a infraestrutura técnica que servirá de base para todos os projetos 
 
 ---
 
-### Sprint 3.4 — Qualidade
+### Sprint 3.5 — Qualidade
 
 - [ ] Organização dos estilos
 - [ ] Revisão da arquitetura
@@ -190,8 +199,8 @@ Primeira versão pública da MS Studio.
 
 # Próxima Tarefa
 
-➡️ Iniciar a Milestone 03 — Front-end Foundation
+➡️ Continuar a Milestone 03 — Front-end Foundation
 
 Próximo passo:
 
-- [ ] Instalar Tailwind CSS v4  
+[ ] Instalar Tailwind CSS v4 (Sprint 3.3)
