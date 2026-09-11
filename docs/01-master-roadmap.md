@@ -129,10 +129,10 @@ Construir a infraestrutura técnica que servirá de base para todos os projetos 
 
 ### Sprint 3.3 — Tailwind CSS
 
-- [ ] Instalar Tailwind CSS v4
-- [ ] Configurar Tailwind CSS
-- [ ] Integrar Design Tokens
-- [ ] Validar ambiente
+- [x] Instalar Tailwind CSS v4
+- [x] Configurar Tailwind CSS
+- [x] Integrar Design Tokens
+- [x] Validar ambiente
 
 ---
 
@@ -203,4 +203,4 @@ Primeira versão pública da MS Studio.
 
 Próximo passo:
 
-[ ] Instalar Tailwind CSS v4 (Sprint 3.3)
+[ ] Sprint 3.4 — Layout System (Container, Grid, Breakpoints, Responsividade)

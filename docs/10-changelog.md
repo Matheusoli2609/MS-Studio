@@ -93,19 +93,29 @@ A partir desta versão, todos os projetos da MS Studio passam a compartilhar uma
 
 ## v0.4.0 — TypeScript & Tailwind Foundation
 
-**Data:** 10/09/2026 (em andamento)
+**Data:** 10/09/2026
 
 ### Added
 
-- Configuração oficial do TypeScript (`tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json`)
-- Migração de `vite.config.js` para `vite.config.ts`
-- Migração de `main.jsx` e `App.jsx` para `.tsx`
+- Configuração oficial do TypeScript (tsconfig.json, tsconfig.app.json, tsconfig.node.json)
+- Migração de vite.config.js para vite.config.ts
+- Migração de main.jsx e App.jsx para .tsx
+- src/vite-env.d.ts (tipagem de assets do Vite)
+- Tailwind CSS v4 instalado e integrado via @tailwindcss/vite
+- src/styles/tailwind.css — ponte entre Tailwind e os Design Tokens (@theme inline)
 
 ### Changed
 
 - Stack oficial do Engineering Handbook atualizada de JavaScript para TypeScript
-- `.gitignore` atualizado para ignorar `*.tsbuildinfo`
+- .gitignore atualizado para ignorar *.tsbuildinfo
+- tsconfig.app.json: removida a opção baseUrl (obsoleta com moduleResolution "Bundler")
+
+### Resultado
+
+A Sprint 3.2 (TypeScript) e a Sprint 3.3 (Tailwind CSS) da Milestone 03 foram concluídas.
+
+O projeto agora possui tipagem estática e um motor de utilitários CSS totalmente integrado aos Design Tokens oficiais, sem duplicar valores nem reset conflitante.
 
 ### Status
 
-🟡 Em andamento — próxima etapa: Tailwind CSS v4
+🟡 Em andamento — próxima etapa: Sprint 3.4, Layout System
