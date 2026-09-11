@@ -11,7 +11,6 @@ function Navbar() {
         <li>Serviços</li>
         <li>Portfólio</li>
         <li>Contato</li>
-        <li>Blog</li>
       </ul>
     </nav>
   )
